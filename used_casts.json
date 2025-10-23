@@ -1,0 +1,58 @@
+[
+  {
+    "timestamp": "",
+    "cast_hash": "0xa4c9bd22812b0d569cda763a32f31a8e0c9927ff",
+    "text": "Half the industry runs on unpaid optimism.",
+    "world": "art",
+    "window": "wrap_convo_chaos"
+  },
+  {
+    "timestamp": "",
+    "cast_hash": "0x2f0199132a0107b651ab257c7dd7f67d548f5b57",
+    "text": "Design should feel like tuning a car — mechanical, deliberate, alive.",
+    "world": "cars",
+    "window": "process_flex"
+  },
+  {
+    "timestamp": "",
+    "cast_hash": "0x50ed25e4a8413509e13e586f4e9b9bcbf09e8012",
+    "text": "Revision gets treated like an afterthought. But that’s where writing might actually happen.",
+    "world": "table",
+    "window": "process_flex"
+  },
+  {
+    "timestamp": "",
+    "cast_hash": "0xcbec09972ff771703d7ba951dcc9e275f95e2158",
+    "text": "Note to self: Eat without YouTube.",
+    "world": "note_to_self",
+    "window": "wake_bait"
+  },
+  {
+    "timestamp": "",
+    "cast_hash": "0x043ec0edc3e8811d0630380607ebeac666b38c0b",
+    "text": "Turns out silence has better conversion rates.",
+    "world": "",
+    "window": ""
+  },
+  {
+    "timestamp": "",
+    "cast_hash": "0x3614a1efd24d79211898e17422c4b0e9543ffc42",
+    "text": "Every project is a prototype for how I want to live.",
+    "world": "cobalt",
+    "window": "wrap_convo_chaos"
+  },
+  {
+    "timestamp": "2025-10-22T18:27:00.395093",
+    "cast_hash": "0x920d225db14284f09ea9dc7d7a056908e8e27b21",
+    "text": "I don’t want another blog. I want a place where old thoughts can come back wearing new clothes.",
+    "world": "table",
+    "window": "wrap_convo_chaos"
+  },
+  {
+    "timestamp": "2025-10-22T18:58:03.850591",
+    "cast_hash": "0xa093ad2ae4a4028b10bebd8e9283e53f49b74d50",
+    "text": "Someday I’ll build a place where stories can breathe between versions.",
+    "world": "table",
+    "window": "wrap_convo_chaos"
+  }
+]
