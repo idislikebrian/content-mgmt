@@ -54,5 +54,19 @@
     "text": "Someday I’ll build a place where stories can breathe between versions.",
     "world": "table",
     "window": "wrap_convo_chaos"
+  },
+  {
+    "timestamp": "2025-10-23T11:27:10.963669",
+    "cast_hash": null,
+    "text": "When you start saying “no” to good ideas, you’ve crossed into real design.",
+    "world": "cobalt_confidence",
+    "window": "process_flex"
+  },
+  {
+    "timestamp": "2025-10-24T13:58:02.177899",
+    "cast_hash": null,
+    "text": "You meet your real self when arguing with a taxi driver at 2 a.m.",
+    "world": "travel",
+    "window": "insight_joke"
   }
 ]
