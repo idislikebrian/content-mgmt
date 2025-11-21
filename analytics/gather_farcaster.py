@@ -1,10 +1,20 @@
+import sys, os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import datetime
-from utils.config import get_farcaster_client
+from dotenv import load_dotenv
+from farcaster import Warpcast
+
 from db.farcaster_db import get_connection
 
-client = get_farcaster_client()
+load_dotenv()
+MNEMONIC = os.getenv("FARCASTER")
 
-# ---------------------
+if not MNEMONIC:
+    raise ValueError("Missing FARCASTER mnemonic in .env")
+
+client = Warpcast(mnemonic=MNEMONIC)
+
 # Analytics Functions
 # ---------------------
 def get_cast_likes_count(cast_hash):
@@ -15,6 +25,7 @@ def get_cast_likes_count(cast_hash):
         print(f"⚠️ Error fetching likes for {cast_hash}: {e}")
         return 0
 
+
 def get_cast_recasts_count(cast_hash):
     try:
         recasters = client.get_cast_recasters(cast_hash).users
@@ -23,15 +34,12 @@ def get_cast_recasts_count(cast_hash):
         print(f"⚠️ Error fetching recasts for {cast_hash}: {e}")
         return 0
 
-def get_replies_count(cast_hash):
-    """Placeholder: not all Warpcast APIs expose replies."""
-    try:
-        return 0
-    except Exception as e:
-        print(f"⚠️ Error fetching replies for {cast_hash}: {e}")
-        return 0
 
-# ---------------------
+def get_replies_count(cast_hash):
+    """Warpcast does not expose replies; placeholder."""
+    return 0
+
+
 # Main Analytics Routine
 # ---------------------
 def gather_analytics():
@@ -40,7 +48,13 @@ def gather_analytics():
 
     conn = get_connection()
     cur = conn.cursor()
-    cur.execute("SELECT cast_hash, text, world, window FROM casts WHERE cast_hash IS NOT NULL")
+
+    cur.execute("""
+        SELECT cast_hash, text, world, window
+        FROM casts
+        WHERE cast_hash IS NOT NULL
+          AND master_cast_id IS NOT NULL
+    """)
     rows = cur.fetchall()
 
     total = len(rows)
@@ -48,9 +62,11 @@ def gather_analytics():
 
     for i, (cast_hash, text, world, window) in enumerate(rows, start=1):
         print(f"({i}/{total}) → {world}/{window}")
+
         likes = get_cast_likes_count(cast_hash)
         recasts = get_cast_recasts_count(cast_hash)
         replies = get_replies_count(cast_hash)
+
         score = likes + (2 * recasts) + (3 * replies)
         now = datetime.datetime.now().isoformat()
 
@@ -65,12 +81,12 @@ def gather_analytics():
                 score = excluded.score,
                 last_updated = excluded.last_updated
         """, (cast_hash, likes, recasts, replies, score, now))
+
         conn.commit()
 
     conn.close()
     print("✅ Analytics refreshed successfully.")
 
-# ---------------------
 # Manual Utilities
 # ---------------------
 def manual_lookup():
@@ -214,9 +230,6 @@ def update_cast_hash():
     conn.close()
     print(f"✅ Updated cast {cast_id} with hash {new_hash}")
 
-
-
-# ---------------------
 # Entry Point
 # ---------------------
 if __name__ == "__main__":
