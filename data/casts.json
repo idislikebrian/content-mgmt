@@ -1,0 +1,200 @@
+{
+  "art": {
+    "wake_bait": [
+      "The art world stays allergic to clarity.",
+      "Every masterpiece starts as a delusion with good lighting."
+    ],
+    "process_flex": [
+      "Good curation is 90% subtraction.",
+      "An art career is just project management with existential stakes."
+    ],
+    "insight_joke": [
+      "Art school teaches confidence more than craft.",
+      "Critics love metaphors because they're allergic to saying ‘I don’t get it.’"
+    ],
+    "project_question": [
+      "What would art look like if rent wasn’t the medium?",
+      "What if the avant-garde was a payroll category?"
+    ],
+    "wrap_convo_chaos": [
+      "Some pieces don’t evolve — they haunt.",
+      "Art survives by refusing to explain itself."
+    ]
+  },
+
+  "cars": {
+    "wake_bait": [
+      "A loud exhaust is just confidence with acoustics.",
+      "Garage radios hit different because they smell like ambition."
+    ],
+    "process_flex": [
+      "Fixing a car teaches you to negotiate with failure.",
+      "Every torque spec is a trust exercise."
+    ],
+    "insight_joke": [
+      "Car meets are just group therapy for the mechanically cursed.",
+      "If your glovebox is clean, your life probably isn’t."
+    ],
+    "project_question": [
+      "What does the perfect daily driver say about its owner?",
+      "Could a dashboard ever teach patience?"
+    ],
+    "wrap_convo_chaos": [
+      "Machines remember the hands that touched them.",
+      "Every highway has a confession hidden in its rhythm."
+    ]
+  },
+
+  "table": {
+    "wake_bait": [
+      "Every idea deserves a second version.",
+      "Drafts don’t lie — they just wait."
+    ],
+    "process_flex": [
+      "Writing is engineering for the invisible.",
+      "A good edit is a demolition with empathy."
+    ],
+    "insight_joke": [
+      "Writers don’t block — they buffer.",
+      "CMS errors build character faster than workshops."
+    ],
+    "project_question": [
+      "What if writing platforms preserved doubt as metadata?",
+      "What would a paragraph look like if it could change its mind?"
+    ],
+    "wrap_convo_chaos": [
+      "Stories molt when they’re ready.",
+      "Revision is the real autobiography."
+    ]
+  },
+
+  "cobalt": {
+    "wake_bait": [
+      "Trust the idea that scares you more than the deadline.",
+      "Studios run on clarity disguised as chaos."
+    ],
+    "process_flex": [
+      "Design isn’t decoration — it’s negotiation.",
+      "Every workflow is a love letter to future you."
+    ],
+    "insight_joke": [
+      "If your deck has three moods, pick one and commit.",
+      "Design revisions are just vibes arguing with logic."
+    ],
+    "project_question": [
+      "What happens if creativity becomes policy?",
+      "How do you scale taste without diluting it?"
+    ],
+    "wrap_convo_chaos": [
+      "Cobalt grows in the margins between certainty and curiosity.",
+      "Most studios chase polish; we chase precision."
+    ]
+  },
+
+  "cobalt_confidence": {
+    "wake_bait": [
+      "Confidence is a design principle.",
+      "Simplicity is courage disguised as restraint."
+    ],
+    "process_flex": [
+      "A good refusal shapes the project more than any approval.",
+      "Beauty is a system before it’s a surface."
+    ],
+    "insight_joke": [
+      "If a client says ‘I trust you,’ set a timer.",
+      "Minimalism is just maximalism on medication."
+    ],
+    "project_question": [
+      "What if design documentation was poetry?",
+      "Can clarity be engineered like hardware?"
+    ],
+    "wrap_convo_chaos": [
+      "A system is honest when it forgives human error.",
+      "Confidence arrives when the work stops apologizing."
+    ]
+  },
+
+  "travel": {
+    "wake_bait": [
+      "The best trips feel like déjà vu in reverse.",
+      "Travel hits harder when you forget the camera exists."
+    ],
+    "process_flex": [
+      "A good journey edits you as you go.",
+      "Time moves differently when you’re lost on purpose."
+    ],
+    "insight_joke": [
+      "Jet lag is just your soul buffering.",
+      "Tourists see sights. Travelers notice patterns."
+    ],
+    "project_question": [
+      "What would travel look like without itineraries?",
+      "Could a city teach you a feeling instead of a fact?"
+    ],
+    "wrap_convo_chaos": [
+      "Some places change you quietly.",
+      "Wandering is the original creative practice."
+    ]
+  },
+
+  "caminos_building": {
+    "wake_bait": [
+      "Caminos should feel like thinking with your feet.",
+      "If the map doesn’t move you, it’s not a map."
+    ],
+    "process_flex": [
+      "Designing Caminos means designing for uncertainty.",
+      "Memory architecture is still architecture."
+    ],
+    "insight_joke": [
+      "Most travel apps panic when you wander.",
+      "Caminos is what happens when introspection goes on vacation."
+    ],
+    "project_question": [
+      "How do you quantify wonder without killing it?",
+      "Could an itinerary breathe like a poem?"
+    ],
+    "wrap_convo_chaos": [
+      "Caminos is slowly mapping the inside of curiosity.",
+      "Movement reveals what stillness hides."
+    ]
+  },
+
+  "note_to_self": {
+    "wake_bait": [
+      "Note to self: Don’t confuse motion with momentum.",
+      "Note to self: Curiosity ages well.",
+      "Note to self: Let go faster.",
+      "Note to self: Resist the urge to predict everything.",
+      "Note to self: Don’t scale your dreams before you test them.",
+      "Note to self: Slow is a speed.",
+      "Note to self: Be where your feet are.",
+      "Note to self: Don’t waste good confusion.",
+      "Note to self: Take yourself seriously just once and see what happens.",
+      "Note to self: Listen longer."
+    ]
+  },
+
+  "wildcards": {
+    "wake_bait": [
+      "The algorithm wants chaos. Give it craft instead.",
+      "Everything online is a remix of a remix."
+    ],
+    "process_flex": [
+      "Internet culture evolves faster than our attention spans.",
+      "Good ideas go viral. Great ideas disappear and return years later."
+    ],
+    "insight_joke": [
+      "Everyone’s an expert until the comments show up.",
+      "Digital nostalgia hits harder at 144p."
+    ],
+    "project_question": [
+      "What does authenticity look like when everyone performs?",
+      "Could the feed ever prioritize meaning over momentum?"
+    ],
+    "wrap_convo_chaos": [
+      "The internet misremembers on purpose.",
+      "Screenshots are our generation’s cave paintings."
+    ]
+  }
+}

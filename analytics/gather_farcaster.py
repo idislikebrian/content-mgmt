@@ -230,6 +230,69 @@ def update_cast_hash():
     conn.close()
     print(f"✅ Updated cast {cast_id} with hash {new_hash}")
 
+def add_manual_cast():
+    """
+    Adds a manually posted cast into the local database.
+    Since Warpcast no longer exposes an API to fetch cast content,
+    the user must provide the cast text.
+    """
+    conn = get_connection()
+    cur = conn.cursor()
+
+    print("➕ Add a manually posted cast")
+    print("Warpcast does NOT expose cast content via API anymore.")
+    print("You'll need to paste the text manually.\n")
+
+    cast_hash = input("Cast hash (from Warpcast URL): ").strip()
+
+    if not cast_hash:
+        print("❌ Cast hash is required.")
+        return
+
+    text = input("Cast text (copy/paste from Warpcast): ").strip()
+
+    if not text:
+        print("❌ Cast text is required (no API can fetch it).")
+        return
+
+    # auto-assign timestamp
+    timestamp = datetime.datetime.now().isoformat()
+
+    # For manual casts, we treat the cast as its own master
+    master_cast_id = cast_hash
+
+    # Leave world/window empty or let user fill them later
+    world = None
+    window = None
+
+    try:
+        cur.execute("""
+            INSERT INTO casts (cast_hash, master_cast_id, text, world, window, timestamp)
+            VALUES (?, ?, ?, ?, ?, ?)
+            ON CONFLICT(cast_hash)
+            DO UPDATE SET
+                master_cast_id = excluded.master_cast_id,
+                text = excluded.text,
+                world = excluded.world,
+                window = excluded.window,
+                timestamp = excluded.timestamp
+        """, (cast_hash, master_cast_id, text, world, window, timestamp))
+
+        conn.commit()
+        print("✅ Cast successfully added to the database.")
+
+    except Exception as e:
+        print(f"❌ Database error: {e}")
+
+    finally:
+        conn.close()
+
+    print("\n--- Cast Summary ---")
+    print(f"Hash: {cast_hash}")
+    print(f"Text: {text[:200]}{'...' if len(text) > 200 else ''}")
+    print(f"Timestamp: {timestamp}")
+    print("---------------------\n")
+
 # Entry Point
 # ---------------------
 if __name__ == "__main__":
@@ -239,6 +302,7 @@ if __name__ == "__main__":
     print("3️⃣  Show recent casts")
     print("4️⃣  Show missing hashes")
     print("5️⃣  Manually update a hash")
+    print("6️⃣  Add a manually posted cast")
     mode = input("→ ")
 
     if mode == "1":
@@ -252,5 +316,7 @@ if __name__ == "__main__":
         show_missing_hashes()
     elif mode == "5":
         update_cast_hash()
+    elif mode == "6":
+        add_manual_cast()
     else:
         print("❌ Invalid choice.")

@@ -1,0 +1,58 @@
+id,timestamp,cast_hash,text,world,window,posted,master_cast_id,cid,likes,recasts,replies,engagement_score,last_updated
+1,,0xa4c9bd22812b0d569cda763a32f31a8e0c9927ff,Half the industry runs on unpaid optimism.,art,wrap_convo_chaos,1,,,2,1,0,4,2025-10-24T19:50:17.868872
+2,,0x2f0199132a0107b651ab257c7dd7f67d548f5b57,"Design should feel like tuning a car — mechanical, deliberate, alive.",cars,process_flex,1,,,2,0,0,2,2025-10-24T19:50:18.220648
+3,,0x50ed25e4a8413509e13e586f4e9b9bcbf09e8012,Revision gets treated like an afterthought. But that’s where writing might actually happen.,table,process_flex,1,,,1,0,0,1,2025-10-24T19:50:18.541671
+4,,0xcbec09972ff771703d7ba951dcc9e275f95e2158,Note to self: Eat without YouTube.,note_to_self,wake_bait,1,,,4,0,0,4,2025-10-24T19:50:18.898406
+5,,0x043ec0edc3e8811d0630380607ebeac666b38c0b,Turns out silence has better conversion rates.,,,1,,,2,0,0,2,2025-10-24T19:50:19.230845
+6,,0x3614a1efd24d79211898e17422c4b0e9543ffc42,Every project is a prototype for how I want to live.,cobalt,wrap_convo_chaos,1,,,1,0,0,1,2025-10-24T19:50:19.554206
+7,2025-10-22T18:27:00.395093,0x920d225db14284f09ea9dc7d7a056908e8e27b21,I don’t want another blog. I want a place where old thoughts can come back wearing new clothes.,table,wrap_convo_chaos,1,,,1,0,0,1,2025-10-24T19:50:19.867539
+8,2025-10-22T18:58:03.850591,0xa093ad2ae4a4028b10bebd8e9283e53f49b74d50,Someday I’ll build a place where stories can breathe between versions.,table,wrap_convo_chaos,1,,,0,0,0,0,2025-10-24T19:50:20.006902
+9,2025-10-23T11:27:10.963669,0xaf9609ea209a3a846c6bca3fe40da10a02da3123,"When you start saying “no” to good ideas, you’ve crossed into real design.",cobalt_confidence,process_flex,1,,,2,0,0,2,2025-10-24T19:50:20.312467
+10,2025-10-24T13:58:02.177899,0xd2c1e2534a8168bc400cc5a61d73953afc68717b,You meet your real self when arguing with a taxi driver at 2 a.m.,travel,insight_joke,1,,,4,0,0,4,2025-10-24T19:50:20.622886
+21,2025-10-24T14:58:09.767489,0x3afedd98d2f9f5808a9c25d05b87a96f8c1a633e,The art world is one big group project where everyone pretends they did the most work.,art,insight_joke,1,,,2,0,0,2,2025-10-24T19:50:20.962650
+22,2025-10-24T15:27:12.123358,0x435e239c8916ba90a738ebafbe7bd2c36c68233b,The real avant-garde is anyone who figures out how to make rent without killing the work.,art,project_question,1,,,0,0,0,0,2025-10-24T19:50:21.123514
+23,2025-10-24T15:58:02.284454,0xff64b892c6cbb04fee6891054839b6c26237a63a,Maintenance is philosophy in disguise. It’s the discipline of refusing decay.,cars,project_question,1,,,0,0,0,0,2025-10-24T19:50:21.276583
+24,2025-10-24T16:27:04.464604,0xf4ce2b11836bd636f91c2c491b360731fb747919,Could an itinerary ever work as a self-portrait?,travel,project_question,1,,,1,0,0,1,2025-10-24T19:50:21.594595
+25,2025-10-24T17:27:12.021474,0x60ee21e4f58558eee0de05313c6a508f12a291fc,Someday I’ll build a place where stories can breathe between versions.,table,wrap_convo_chaos,1,,,0,0,0,0,2025-10-24T19:50:21.721750
+26,2025-10-24T17:58:02.286872,0x59c92b8e19f19c39860e15585a07e76b0018fac2,Travel is like rehearsal for presence.,travel,wrap_convo_chaos,1,,,0,0,0,0,2025-10-24T19:50:21.854016
+27,2025-10-24T18:27:02.490034,0x79d6fa803762c9cd9723c474233c00fb258abb26,Half the industry runs on unpaid optimism. The other half runs on people who pretend not to notice.,art,wrap_convo_chaos,1,,,2,0,0,2,2025-10-24T19:50:22.208307
+28,2025-11-10T12:27:06.112486,0x8cd4427fdb73d83e387e7aa938bff24365680a52,The gothic designers knew the trick — make beauty heavy.,cobalt_confidence,process_flex,1,,,0,0,0,0,
+29,2025-11-10T12:58:06.603235,0xbbf4623093c7f6d5fc302dbed617c8c8cfc638b0,What if briefs felt like invitations instead of instructions?,cobalt,process_flex,1,,,0,0,0,0,
+30,2025-11-10T13:27:08.375898,0xd44b64d44f61b975045de8e91627b275c4a8f497,Wandering should count as input.,caminos_building,insight_joke,1,,,0,0,0,0,
+31,2025-11-10T13:59:11.990264,0x4d47fdb57baea98fd771b1a744e290ea5da53010,A perfectly clean garage means you’re not doing enough damage.,cars,insight_joke,1,,,0,0,0,0,
+32,2025-11-10T14:27:05.555295,0xfe0bd211d926c2ae87c3eabfac6a0d3350637d3b,"If it takes more than two to explain, it’s not ready for the world.",cobalt_confidence,insight_joke,1,,,0,0,0,0,
+33,2025-11-10T14:58:09.470116,0x1aa5cc59d800757671e4c614333784a9ee99f5f0,Maybe ‘creative director’ should mean ‘editor of chaos.’,cobalt,insight_joke,1,,,0,0,0,0,
+34,2025-11-10T15:27:10.233026,0xaf051c5b62cff8dfee98623aec6bc76fb64433c1,What would collaboration look like if hierarchy disappeared?,cobalt,project_question,1,,,0,0,0,0,
+35,2025-11-10T15:58:00.908530,0x082579ca765485b64a3a53fa8dc273e4bde6ac02,What would it mean to travel for texture instead of content?,travel,project_question,1,,,0,0,0,0,
+36,2025-11-10T17:27:06.802714,0x3ce08373e8f15e9cbb8d46bd8b492b0e676d9947,"The more I study Jobs, the more I realize he wasn’t selling products — he was selling clarity. And clarity is expensive.",cobalt_confidence,wrap_convo_chaos,1,,,0,0,0,0,
+37,2025-11-19T13:27:05.711874,0x499d1077e1e53dd2d3901f36d818d1cb3f7d1a1c,Maybe ‘creative director’ should mean ‘editor of chaos.’,cobalt,insight_joke,1,,,0,0,0,0,
+38,2025-11-19T15:27:09.958195,0xab71bed990bf3aa94b08402e544aef86b73a9d55,What if we built a CMS that didn’t collapse under its own ego?,table,project_question,1,44,,0,0,0,0,2025-12-08T17:11:51.040643
+39,2025-11-19T15:58:04.175086,0x9f01c9b40e1c52e531c1b89041e393623c9c62dd,The only sustainable art practice is honesty — and even that costs rent.,art,project_question,1,15,,1,0,0,1,2025-12-08T17:11:51.502940
+40,2025-11-19T16:27:05.611435,0x22cbc3c8c3880b7c6ed504c7e3c4c3282ee00c3c,Art isn’t supposed to scale. That’s what makes it dangerous.,art,project_question,1,13,,5,2,0,9,2025-12-08T17:11:54.782443
+41,2025-11-21T12:27:00.984792,0x9b71f270b1104c268385615cb034f0999af77310,The time to wander without feeling guilt is a real luxury.,travel,process_flex,1,126,,1,0,0,1,2025-12-08T17:11:58.026480
+42,2025-11-21T12:58:02.430009,0xee03604f73e2b38554c8340e8d15fab966e81f93,"I keep thinking: what if editing was visible, not hidden? Like the sediment layers of thought.",table,process_flex,1,36,,0,0,0,0,2025-12-08T17:11:58.171923
+43,2025-11-21T14:27:38.067135,0x68da487bb63a6e72bf4cc2e422539639b26cbb2c,Every artist says they hate networking until the champagne hits.,art,insight_joke,1,9,,0,0,0,0,2025-12-08T17:11:58.546407
+44,2025-11-21T14:58:09.760036,0x1984253a0e10f6ea2d79e4139f722afe6013cb3b,Every creative meeting could be replaced by a shared playlist.,cobalt,insight_joke,1,59,,0,0,0,0,2025-12-08T17:11:58.709207
+45,2025-11-21T15:27:01.159889,0x499169375e1b1d3e018f67ae4b7cbaad46fbde7b,What happens if we treat the sales deck like an art object?,cobalt_confidence,project_question,1,77,,4,0,0,4,2025-12-08T17:11:59.155591
+46,2025-11-21T15:58:20.980332,0x34a242c1e5934cb64785ac4f0e002848fd5e9a7f,You can’t separate the architecture from the invitation.,cobalt_confidence,project_question,1,80,,0,0,0,0,2025-12-08T17:11:59.295819
+47,2025-11-21T16:27:03.647266,0x250e16128d5b6b1914edfc55bb0c527c6e7f1746,How do you document a feeling without flattening it?,travel,project_question,1,133,,0,0,0,0,2025-12-08T17:11:59.446625
+48,2025-11-21T16:58:05.761846,0x918618bc5ec407e71a2bf06b5b21ee90b1d7a78f,"Every project starts with one stubborn question: Can I make this thing better, or will it make me worse?",cars,project_question,1,32,,0,0,0,0,2025-12-08T17:11:59.571869
+49,2025-11-21T17:27:17.009746,0x4134d56250e606ca9c12ba27b76c6cbd29188b04,Every idea I sketch about travel ends up being a note about time.,caminos_building,wrap_convo_chaos,1,149,,0,0,0,0,2025-12-08T17:11:59.834430
+50,2025-11-23T17:58:01.151053,0x8eaf682eae343c63050c238725e1a36ffade12ab,Maybe the future of writing isn’t authorship — it’s stewardship.,table,wrap_convo_chaos,1,48,,5,2,0,9,2025-12-08T17:12:03.153452
+51,2025-11-24T10:27:09.635694,0xc8019c29fe2870d3c48e98d7683d993c4de8f11a,Note to self: Take someting seriously.,note_to_self,wake_bait,1,89,,0,0,0,0,2025-12-08T17:12:03.303417
+52,2025-11-24T10:58:01.322874,0x720743d385c3f30e448990ea2b2633784737724b,Note to self: Follow your intuition.,note_to_self,wake_bait,1,100,,6,0,0,6,2025-12-08T17:12:03.780377
+53,2025-11-24T11:27:03.873532,0x003edcad66db859ea8e685921ca8bbb541c2705e,Collectors don’t buy art — they buy evidence of belief.,art,process_flex,1,6,,1,0,0,1,2025-12-08T17:12:04.262811
+54,2025-11-24T11:58:23.874858,0x990b6c2fed6449682cd038a34a25a0129cac7e90,"If we can build engines, we can build economies. The garage is just the first factory of belief.",cars,process_flex,1,27,,0,0,0,0,2025-12-08T17:12:04.428151
+55,2025-11-24T12:27:05.657942,0x2a3620e730600ed67fe40af4ec9ea97db7096f17,The phrase “creative industry” is an oxymoron that learned to invoice.,art,process_flex,1,8,,0,0,0,0,2025-12-08T17:12:04.560065
+56,2025-11-24T12:58:25.781342,0x9e0789b442577ac27ffcfbbb32985e117ad7c990,The job isn’t to collect possibilities. It’s to murder distractions.,cobalt_confidence,process_flex,1,72,,0,0,0,0,2025-12-08T17:12:04.699668
+57,2025-11-24T17:27:23.765485,0xcaaa5cf0c9f54839f7b9f969ce5f6a95e42be8f8,Every artist wants to change the world until their first grant report is due.,art,wrap_convo_chaos,1,20,,1,0,0,1,2025-12-08T17:12:05.169795
+58,2025-11-24T17:58:05.590552,0xe44dcfa8cb4dac3cc16378c4e20929171f8209d0,Art survives because someone still believes in useless beauty. Even when it stops paying.,art,wrap_convo_chaos,1,19,,4,1,0,6,2025-12-08T17:12:08.530748
+59,2025-11-24T18:27:07.095079,0xcf96087a25dfcc0a76fbe3591d45b0f27186fcab,The future of travel might be less about going and more about noticing.,caminos_building,wrap_convo_chaos,1,148,,0,0,0,0,2025-12-08T17:12:08.678439
+60,2025-11-24T18:58:09.315385,0x9b23d03794211d97a6b0e1f1ad757cc186c7f715,Cobalt might just be an excuse to keep learning in public.,cobalt,wrap_convo_chaos,1,65,,0,0,0,0,2025-12-08T17:12:08.825666
+61,2025-12-08T17:07:27.106610,0x9589c3cf4d8f351c104380581513945be5fe00c9,Should’ve hosted an art basil event this year,,,1,0x9589c3cf4d8f351c104380581513945be5fe00c9,,2,0,0,2,2025-12-08T17:12:09.307136
+62,2025-12-08T17:08:36.387322,0xb1855943cbc755cbff7f810a0783a8aa10bae9ae,Has anyone ever used Copilot before? I mean anyone,,,1,0xb1855943cbc755cbff7f810a0783a8aa10bae9ae,,1,0,0,1,2025-12-08T17:12:09.774880
+63,2025-12-08T17:09:49.483029,0x09b20eccf3ca81692c5a122b0f565b53412aa96b,Bring back print media as a shuttle for the cutaway illustration,,,1,0x09b20eccf3ca81692c5a122b0f565b53412aa96b,,6,1,0,8,2025-12-08T17:12:13.350225
+64,2025-12-08T17:10:14.834400,0x53077b96303f8fcd9d1df5c0d6c9da9fe7e1a5d8,the heart has eyes the brain knows nothing of,,,1,0x53077b96303f8fcd9d1df5c0d6c9da9fe7e1a5d8,,4,0,0,4,2025-12-08T17:12:13.838673
+65,2025-12-08T17:10:43.913817,0xa6e2b626c0a8b0ecfc2d39b2f7dd59b77d72622f,The textures of nature,,,1,0xa6e2b626c0a8b0ecfc2d39b2f7dd59b77d72622f,,6,1,0,8,2025-12-08T17:12:17.256696
+66,2025-12-08T17:11:06.495298,0x5283796d044a8d93993143efd69364daf9627c32,Paper horses in fashion photography is coded,,,1,0x5283796d044a8d93993143efd69364daf9627c32,,11,4,0,19,2025-12-08T17:12:20.648322
+67,2025-12-08T17:11:31.937850,0x109689fba84af3adce056a2ca04ea6d82c32de27,Text-heavy car ads— that’s the cast,,,1,0x109689fba84af3adce056a2ca04ea6d82c32de27,,10,1,0,12,2025-12-08T17:12:23.960683
