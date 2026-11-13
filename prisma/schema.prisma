@@ -1,0 +1,78 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+//// ENUMS
+
+enum PostStatus {
+  DRAFT
+  QUEUED
+  EXHAUSTED
+}
+
+enum Platform {
+  FARCASTER
+  BLUESKY
+  THREADS
+  MASTODON
+  X
+}
+
+//// ARCHIVE (READ-ONLY, MANUAL UPDATES)
+
+model Tweet {
+  id        String   @id
+  iso_date  DateTime @db.Timestamptz(6)
+  text      String
+  metadata  Json?
+  createdAt DateTime @default(now())
+
+  @@index([iso_date])
+}
+
+//// CMS (ACTIVE SYSTEM)
+
+model Post {
+  id        Int        @id @default(autoincrement())
+  text      String
+  world     String
+  window    String
+  status    PostStatus @default(DRAFT)
+  createdAt DateTime   @default(now())
+
+  publications PostPublication[]
+
+  @@unique([text, world, window])
+  @@index([status])
+}
+
+model PostPublication {
+  id              Int      @id @default(autoincrement())
+  postId          Int
+  platform        Platform
+  platformPostId  String
+  publishedAt     DateTime
+
+  post       Post            @relation(fields: [postId], references: [id])
+  analytics  PostAnalytics?
+
+  @@unique([postId, platform])
+  @@unique([platform, platformPostId])
+  @@index([platform])
+}
+
+model PostAnalytics {
+  id                Int      @id @default(autoincrement())
+  postPublicationId Int      @unique
+  likes             Int?
+  replies           Int?
+  reposts           Int?
+  quotes            Int?
+  lastUpdated       DateTime @updatedAt
+
+  postPublication   PostPublication @relation(fields: [postPublicationId], references: [id])
+}

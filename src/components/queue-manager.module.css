@@ -1,0 +1,172 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* ---------- Settings Card ---------- */
+
+.settingsCard {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.settingsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settingsHeader h3 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.settingsHeader p {
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* ---------- Time Slots ---------- */
+
+.timeSlots {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.addSlot {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.slotList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.slotList button {
+  margin-left: 0.25rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--destructive);
+}
+
+/* ---------- Columns ---------- */
+
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .columns {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------- Empty States ---------- */
+
+.empty {
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+}
+
+/* ---------- Draft + Queue Rows ---------- */
+
+.postRow,
+.queueRow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.postRow:last-child,
+.queueRow:last-child {
+  border-bottom: none;
+}
+
+.postRow p,
+.queueRow p {
+  flex: 1;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ---------- Queue Header ---------- */
+
+.queueHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.queueHeader h3 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* ---------- Queue Index ---------- */
+
+.index {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 999px;
+  background: var(--primary);
+  color: var(--primary-foreground);
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ---------- Network Dots ---------- */
+
+.networks {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.networks span {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 999px;
+}
+
+.farcaster {
+  background-color: #7c3aed; /* purple-600 */
+}
+
+.bluesky {
+  background-color: #2563eb; /* blue-600 */
+}
+
+.mastodon {
+  background-color: #4f46e5; /* indigo-600 */
+}
